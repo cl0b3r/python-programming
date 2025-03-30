@@ -37,3 +37,8 @@ mivariablename = "not ok" # all lowercase
 mi_variable_name_123 = "ok"
 
 CONSTANT = 3.1416 # all uppercase indicates a constant, but python doesn't have constants
+
+user_active: bool = True # type anotation, value can still change tho basically clickbait it serves more as a "documentation" kinda
+print(user_active)
+
+user_active = 22 # this wouldn't cause troubles 
