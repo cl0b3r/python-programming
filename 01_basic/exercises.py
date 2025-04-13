@@ -70,6 +70,6 @@ print("2. Round the number using round().")
 print("3. Perform integer division between the result and the number 2.")
 print("4. The result should be 1.")
 
-
-result = round(3.1416) // 2 # result = round(3.1416) / 2 would return 1.5 because round rounds to the nearest int in this case 3 3/2 = 1.5
+PI = 3.1416
+result = round(PI) // 2 # result = round(3.1416) / 2 would return 1.5 because round rounds to the nearest int in this case 3 3/2 = 1.5
 print(result)
